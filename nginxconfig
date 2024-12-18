@@ -15,9 +15,9 @@ http {
 
     server {
         listen 80;
-        server_name localhost;
+        server_name 13.126.254.58;
 
-        root /usr/share/nginx/html;
+         root /var/www/html;
         index index.html;
 
         location / {
